@@ -25,7 +25,7 @@ collections:
               - { label: "Subheadline", name: "subheadline", widget: "text" }
               - { label: "Primary Button Text", name: "cta_primary", widget: "string" }
               - { label: "Secondary Button Text", name: "cta_secondary", widget: "string" }
-              - { label: "Hero Background Image", name: "hero_image", widget: "image" }
+              - { label: "Hero Background Image", name: "hero_image", widget: "string", hint: "Paste a direct image URL. Upload to postimages.org and copy the Direct Link." }
               - { label: "Hero Video URL (YouTube - optional)", name: "hero_video_url", widget: "string", required: false }
               - { label: "Stats Number", name: "stat_number", widget: "number" }
               - { label: "Stats Suffix (e.g. M+)", name: "stat_suffix", widget: "string" }
@@ -46,7 +46,7 @@ collections:
               - { label: "Bio Paragraph 1", name: "bio_paragraph1", widget: "text" }
               - { label: "Bio Paragraph 2", name: "bio_paragraph2", widget: "text" }
               - { label: "Years of Experience", name: "years_experience", widget: "number" }
-              - { label: "Profile Photo", name: "photo", widget: "image" }
+              - { label: "Profile Photo", name: "photo", widget: "string", hint: "Paste a direct image URL. Upload to postimages.org and copy the Direct Link." }
 
           # ─── SERVICES ───────────────────────────────────────
           - label: "Services Section"
@@ -93,7 +93,7 @@ collections:
                 name: "category"
                 widget: "select"
                 options: ["Commercial", "Tech", "Sports", "Institutional", "Social", "Brand Film", "Other"]
-              - { label: "Thumbnail Image", name: "thumbnail", widget: "image" }
+              - { label: "Thumbnail Image", name: "thumbnail", widget: "string", hint: "Paste a direct image URL. Upload to postimages.org and copy the Direct Link." }
               - { label: "Video URL (YouTube)", name: "video_url", widget: "string", required: false, hint: "e.g. https://youtu.be/abc123 or https://www.youtube.com/watch?v=abc123" }
               - { label: "Description", name: "description", widget: "text" }
               - label: "Tags"

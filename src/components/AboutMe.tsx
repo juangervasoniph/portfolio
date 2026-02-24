@@ -18,7 +18,7 @@ export default function AboutMe() {
             transition={{ duration: 0.8 }}
             className="relative order-2 lg:order-1"
           >
-            <div className="relative z-10 rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-xl shadow-black/5 aspect-[4/5] md:aspect-square lg:aspect-[4/5]">
+            <div className="relative z-10 rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-xl shadow-black/5 aspect-[4/5] md:aspect-square lg:aspect-[4/5] bg-zinc-100">
               <img
                 src={about.photo}
                 alt="Juan Gervasoni"

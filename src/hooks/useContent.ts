@@ -76,7 +76,7 @@ const defaultContent: SiteContent = {
     subheadline: "I craft high-performance videos optimized for your specific goals.",
     cta_primary: "Start Strategy Session",
     cta_secondary: "View Case Studies",
-    hero_image: "https://picsum.photos/seed/juan-marketing/1920/1080",
+    hero_image: "",
     hero_video_url: "",
     stat_number: 250,
     stat_suffix: "M+",
@@ -90,7 +90,7 @@ const defaultContent: SiteContent = {
     bio_paragraph1: "",
     bio_paragraph2: "",
     years_experience: 12,
-    photo: "https://picsum.photos/seed/juan-profile-light/800/1000"
+    photo: ""
   },
   services: {
     pill_text: "Capabilities",

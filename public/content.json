@@ -1,17 +1,23 @@
 {
   "hero": {
-    "pill_text": "High-Impact Video Editing & Strategy",
-    "headline1": "VIDEOS THAT",
-    "headline2": "DRIVE RESULTS.",
-    "subheadline": "I don't just make things look pretty. I craft high-performance videos optimized for your specific goals—leveraging deep marketing insights to ensure every edit converts.",
-    "cta_primary": "Start Strategy Session",
     "cta_secondary": "View Case Studies",
-    "hero_image": "https://picsum.photos/seed/juan-marketing/1920/1080",
     "hero_video_url": "",
-    "stat_number": 250,
-    "stat_suffix": "M+",
     "stat_label": "Views Generated",
-    "trust_bar": ["Growth Marketers", "BetterVet", "Happi Ai", "Meble Furniture", "Gov Santa Fe"]
+    "trust_bar": [
+      "Growth Marketers",
+      "BetterVet",
+      "Happi Ai",
+      "Meble Furniture",
+      "Gov Santa Fe"
+    ],
+    "pill_text": "High-Impact Video Editing & Strategy",
+    "cta_primary": "Start Strategy Session",
+    "subheadline": "I don't just make things look pretty. I craft high-performance videos optimized for your specific goals—leveraging deep marketing insights to ensure every edit converts.",
+    "stat_number": 250,
+    "hero_image": "https://picsum.photos/seed/juan-marketing/1920/1080",
+    "stat_suffix": "M+",
+    "headline1": "VIDEOS THAT",
+    "headline2": "DRIVE RESULTS."
   },
   "about": {
     "pill_text": "About Me",
@@ -20,14 +26,20 @@
     "bio_paragraph1": "I am Juan Gervasoni, a Senior Video Editor with over 12 years of experience transforming raw footage into high-impact visual stories. My background as a Marketing Specialist at Growth Marketers gives me a unique advantage: I don't just edit for aesthetics—I edit for performance.",
     "bio_paragraph2": "I bridge the gap between creative post-production and marketing ROI. Whether it's a viral TikTok or a high-stakes Meta campaign, every frame is a strategic decision designed to drive conversion and audience retention.",
     "years_experience": 12,
-    "photo": "https://picsum.photos/seed/juan-profile-light/800/1000"
+    "photo": "/uploads/img_1665.jpg"
   },
   "services": {
     "pill_text": "Capabilities",
     "headline1": "HOW I DRIVE",
     "headline2": "GROWTH.",
     "subheadline": "A comprehensive suite of video editing and marketing services designed to scale your brand across every digital touchpoint.",
-    "tools": ["Premiere Pro", "After Effects", "DaVinci Resolve", "Photoshop", "AI Workflows"],
+    "tools": [
+      "Premiere Pro",
+      "After Effects",
+      "DaVinci Resolve",
+      "Photoshop",
+      "AI Workflows"
+    ],
     "items": [
       {
         "title": "Direct Response Ads",
@@ -48,14 +60,14 @@
     ]
   },
   "contact": {
-    "pill_text": "Let's Scale",
-    "headline1": "VIDEO",
-    "headline2": "STRATEGY.",
-    "subheadline": "Ready to stop guessing and start converting? Select a time for our strategy session to discuss your video goals.",
-    "email": "hello@juangervasoni.com",
     "instagram_url": "#",
     "twitter_url": "#",
     "linkedin_url": "#",
+    "pill_text": "Let's Scale",
+    "subheadline": "Ready to stop guessing and start converting? Select a time for our strategy session to discuss your video goals.",
+    "email": "hello@juangervasoni.com",
+    "headline1": "VIDEO",
+    "headline2": "STRATEGY.",
     "cal_url": "https://cal.com/juangervasoni/30min?embed=true"
   },
   "projects": [
@@ -65,7 +77,11 @@
       "thumbnail": "https://picsum.photos/seed/bettervet/800/450",
       "video_url": "",
       "description": "Post-production and script for BetterVet's brand campaign. Directed by Jimena San Pedro.",
-      "tags": ["Post-Production", "Script", "Brand Film"]
+      "tags": [
+        "Post-Production",
+        "Script",
+        "Brand Film"
+      ]
     },
     {
       "title": "Happi Ai: The Future of AI",
@@ -73,7 +89,11 @@
       "thumbnail": "https://picsum.photos/seed/happiai/800/450",
       "video_url": "",
       "description": "Editing and script for Happi Ai, in collaboration with Raw Access Media.",
-      "tags": ["Editing", "Script", "AI Tech"]
+      "tags": [
+        "Editing",
+        "Script",
+        "AI Tech"
+      ]
     },
     {
       "title": "Meble Furniture: Modern Living",
@@ -81,7 +101,11 @@
       "thumbnail": "https://picsum.photos/seed/meble/800/450",
       "video_url": "",
       "description": "High-end commercial edit for Meble Furniture's latest collection.",
-      "tags": ["Editing", "Commercial", "Lifestyle"]
+      "tags": [
+        "Editing",
+        "Commercial",
+        "Lifestyle"
+      ]
     },
     {
       "title": "Champion Sports: Performance",
@@ -89,7 +113,11 @@
       "thumbnail": "https://picsum.photos/seed/champion/800/450",
       "video_url": "",
       "description": "Dynamic sports editing focusing on movement and performance.",
-      "tags": ["Action", "Sports", "Dynamic"]
+      "tags": [
+        "Action",
+        "Sports",
+        "Dynamic"
+      ]
     },
     {
       "title": "Government of Santa Fe",
@@ -97,7 +125,11 @@
       "thumbnail": "https://picsum.photos/seed/santafe/800/450",
       "video_url": "",
       "description": "Institutional video production for the Government of the Province of Santa Fe.",
-      "tags": ["Production", "Institutional", "Storytelling"]
+      "tags": [
+        "Production",
+        "Institutional",
+        "Storytelling"
+      ]
     },
     {
       "title": "Support Pets: Emotional Support",
@@ -105,7 +137,11 @@
       "thumbnail": "https://picsum.photos/seed/supportpets/800/450",
       "video_url": "",
       "description": "Heartfelt commercial edit for Support Pets service.",
-      "tags": ["Editing", "Narrative", "Commercial"]
+      "tags": [
+        "Editing",
+        "Narrative",
+        "Commercial"
+      ]
     }
   ]
 }

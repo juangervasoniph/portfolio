@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "about"
+        label: "About Me"
+        file: "public/content.json"
+        fields:
+          - label: "About Me"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Headline Line 1", name: "headline1", widget: "string" }
+              - { label: "Headline Line 2 (accent color)", name: "headline2", widget: "string" }
+              - { label: "Bio Paragraph 1", name: "bio_paragraph1", widget: "text" }
+              - { label: "Bio Paragraph 2", name: "bio_paragraph2", widget: "text" }
+              - { label: "Years of Experience", name: "years_experience", widget: "number" }
+              - { label: "Profile Photo URL", name: "photo_url", widget: "string", hint: "Paste a direct image URL or upload via the Media section" }
+          - label: "Portfolio Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Project Title", name: "title", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options: ["Commercial", "Tech", "Sports", "Institutional", "Social", "Brand Film", "Other"]
+              - { label: "Thumbnail Image URL", name: "thumbnail", widget: "string", hint: "Paste a direct image URL (e.g. from your Google Drive or Vimeo thumbnail)" }
+              - { label: "Video URL (YouTube or Vimeo)", name: "video_url", widget: "string", required: false, hint: "e.g. https://vimeo.com/123456789 or https://youtu.be/abc123" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }

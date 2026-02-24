@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+
+  --color-brand-primary: #111111;
+  --color-brand-secondary: #555555;
+  --color-brand-accent: #FF5A00;
+  --color-brand-bg: #F8F8F6;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-primary font-sans antialiased selection:bg-brand-accent selection:text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight font-bold;
+  }
+}
+
+.glass {
+  @apply bg-white/80 backdrop-blur-xl border border-black/5 shadow-sm;
+}
+
+.video-container {
+  @apply relative overflow-hidden bg-zinc-100 rounded-[2rem] transition-all duration-500;
+}
+
+.expensive-card {
+  @apply bg-white border border-black/5 p-8 md:p-12 rounded-[2rem] shadow-sm transition-all duration-300 hover:shadow-xl hover:shadow-black/5;
+}
+
+.btn-primary {
+  @apply px-8 py-4 bg-brand-primary text-white font-bold text-sm rounded-full hover:bg-brand-accent transition-all flex items-center justify-center gap-2 shadow-md hover:shadow-lg hover:-translate-y-0.5 w-full sm:w-auto;
+}
+
+.btn-secondary {
+  @apply px-8 py-4 bg-white border border-black/10 text-brand-primary font-bold text-sm rounded-full hover:bg-black hover:text-white transition-all flex items-center justify-center gap-2 w-full sm:w-auto;
+}
+
+.pill-tag {
+  @apply inline-flex items-center px-4 py-2 bg-white border border-black/5 rounded-full text-xs font-bold text-brand-secondary uppercase tracking-widest shadow-sm;
+}
+
+

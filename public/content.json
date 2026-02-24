@@ -1,17 +1,23 @@
 {
   "hero": {
-    "pill_text": "High-Impact Video Editing & Strategy",
-    "headline1": "VIDEOS THAT",
-    "headline2": "DRIVE RESULTS.",
-    "subheadline": "I don't just make things look pretty. I craft high-performance videos optimized for your specific goals—leveraging deep marketing insights to ensure every edit converts.",
-    "cta_primary": "Start Strategy Session",
     "cta_secondary": "View Case Studies",
-    "hero_image": "",
     "hero_video_url": "",
-    "stat_number": 250,
-    "stat_suffix": "M+",
     "stat_label": "Views Generated",
-    "trust_bar": ["Growth Marketers", "BetterVet", "Happi Ai", "Meble Furniture", "Gov Santa Fe"]
+    "trust_bar": [
+      "Growth Marketers",
+      "BetterVet",
+      "Happi Ai",
+      "Meble Furniture",
+      "Gov Santa Fe"
+    ],
+    "pill_text": "High-Impact Video Editing & Strategy",
+    "cta_primary": "Start Strategy Session",
+    "subheadline": "I don't just make things look pretty. I craft high-performance videos optimized for your specific goals—leveraging deep marketing insights to ensure every edit converts.",
+    "stat_number": 250,
+    "hero_image": "https://i.postimg.cc/L6trSJfC/Better-Vet-Logo.jpg",
+    "stat_suffix": "M+",
+    "headline1": "VIDEOS THAT",
+    "headline2": "DRIVE RESULTS."
   },
   "about": {
     "pill_text": "About Me",
@@ -27,7 +33,13 @@
     "headline1": "HOW I DRIVE",
     "headline2": "GROWTH.",
     "subheadline": "A comprehensive suite of video editing and marketing services designed to scale your brand across every digital touchpoint.",
-    "tools": ["Premiere Pro", "After Effects", "DaVinci Resolve", "Photoshop", "AI Workflows"],
+    "tools": [
+      "Premiere Pro",
+      "After Effects",
+      "DaVinci Resolve",
+      "Photoshop",
+      "AI Workflows"
+    ],
     "items": [
       {
         "title": "Direct Response Ads",
@@ -48,64 +60,40 @@
     ]
   },
   "contact": {
-    "pill_text": "Let's Scale",
-    "headline1": "VIDEO",
-    "headline2": "STRATEGY.",
-    "subheadline": "Ready to stop guessing and start converting? Select a time for our strategy session to discuss your video goals.",
-    "email": "hello@juangervasoni.com",
     "instagram_url": "#",
     "twitter_url": "#",
     "linkedin_url": "#",
+    "pill_text": "Let's Scale",
+    "subheadline": "Ready to stop guessing and start converting? Select a time for our strategy session to discuss your video goals.",
+    "email": "juangervasoniph@gmail.com",
+    "headline1": "VIDEO",
+    "headline2": "STRATEGY.",
     "cal_url": "https://cal.com/juangervasoni/30min?embed=true"
   },
   "projects": [
     {
       "title": "BetterVet: Mobile Vet Care",
       "category": "Commercial",
-      "thumbnail": "",
-      "video_url": "",
+      "thumbnail": "https://i.postimg.cc/pXs3rgGT/unnamed88.jpg",
+      "video_url": "https://www.youtube.com/watch?v=sL-4FJKP8OI",
       "description": "Post-production and script for BetterVet's brand campaign. Directed by Jimena San Pedro.",
-      "tags": ["Post-Production", "Script", "Brand Film"]
+      "tags": [
+        "Post-Production",
+        "Script",
+        "Brand Film"
+      ]
     },
     {
       "title": "Happi Ai: The Future of AI",
       "category": "Tech",
-      "thumbnail": "",
-      "video_url": "",
+      "thumbnail": "https://i.postimg.cc/pXs3rgGT/unnamed88.jpg",
+      "video_url": "https://www.youtube.com/watch?v=sL-4FJKP8OI",
       "description": "Editing and script for Happi Ai, in collaboration with Raw Access Media.",
-      "tags": ["Editing", "Script", "AI Tech"]
-    },
-    {
-      "title": "Meble Furniture: Modern Living",
-      "category": "Commercial",
-      "thumbnail": "",
-      "video_url": "",
-      "description": "High-end commercial edit for Meble Furniture's latest collection.",
-      "tags": ["Editing", "Commercial", "Lifestyle"]
-    },
-    {
-      "title": "Champion Sports: Performance",
-      "category": "Sports",
-      "thumbnail": "",
-      "video_url": "",
-      "description": "Dynamic sports editing focusing on movement and performance.",
-      "tags": ["Action", "Sports", "Dynamic"]
-    },
-    {
-      "title": "Government of Santa Fe",
-      "category": "Institutional",
-      "thumbnail": "",
-      "video_url": "",
-      "description": "Institutional video production for the Government of the Province of Santa Fe.",
-      "tags": ["Production", "Institutional", "Storytelling"]
-    },
-    {
-      "title": "Support Pets: Emotional Support",
-      "category": "Commercial",
-      "thumbnail": "",
-      "video_url": "",
-      "description": "Heartfelt commercial edit for Support Pets service.",
-      "tags": ["Editing", "Narrative", "Commercial"]
+      "tags": [
+        "Editing",
+        "Script",
+        "AI Tech"
+      ]
     }
   ]
 }

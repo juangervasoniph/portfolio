@@ -1,29 +1,16 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import ProjectPage from './pages/ProjectPage';
+import ArchivePage from './pages/ArchivePage';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-brand-bg selection:bg-brand-accent selection:text-white">
-      <Navbar />
-      <main>
-        <Hero />
-        <AboutMe />
-        <Portfolio />
-        <Services />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:id" element={<ProjectPage />} />
+        <Route path="/archive" element={<ArchivePage />} />
+      </Routes>
+    </Router>
   );
 }
-

@@ -7,22 +7,83 @@ public_folder: /uploads
 
 collections:
   - name: "settings"
-    label: "Site Settings"
+    label: "Site Content"
     files:
-      - name: "about"
-        label: "About Me"
+      - name: "content"
+        label: "All Site Content"
         file: "public/content.json"
         fields:
-          - label: "About Me"
+
+          # ─── HERO ───────────────────────────────────────────
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Pill tag text", name: "pill_text", widget: "string" }
+              - { label: "Headline Line 1", name: "headline1", widget: "string" }
+              - { label: "Headline Line 2 (accent)", name: "headline2", widget: "string" }
+              - { label: "Subheadline", name: "subheadline", widget: "text" }
+              - { label: "Primary Button Text", name: "cta_primary", widget: "string" }
+              - { label: "Secondary Button Text", name: "cta_secondary", widget: "string" }
+              - { label: "Hero Background Image", name: "hero_image", widget: "image" }
+              - { label: "Hero Video URL (YouTube - optional)", name: "hero_video_url", widget: "string", required: false }
+              - { label: "Stats Number", name: "stat_number", widget: "number" }
+              - { label: "Stats Suffix (e.g. M+)", name: "stat_suffix", widget: "string" }
+              - { label: "Stats Label", name: "stat_label", widget: "string" }
+              - label: "Trust Bar Brands"
+                name: "trust_bar"
+                widget: "list"
+                field: { label: "Brand Name", name: "brand", widget: "string" }
+
+          # ─── ABOUT ──────────────────────────────────────────
+          - label: "About Me Section"
             name: "about"
             widget: "object"
             fields:
+              - { label: "Pill tag text", name: "pill_text", widget: "string" }
               - { label: "Headline Line 1", name: "headline1", widget: "string" }
-              - { label: "Headline Line 2 (accent color)", name: "headline2", widget: "string" }
+              - { label: "Headline Line 2 (accent)", name: "headline2", widget: "string" }
               - { label: "Bio Paragraph 1", name: "bio_paragraph1", widget: "text" }
               - { label: "Bio Paragraph 2", name: "bio_paragraph2", widget: "text" }
               - { label: "Years of Experience", name: "years_experience", widget: "number" }
-              - { label: "Profile Photo URL", name: "photo_url", widget: "string", hint: "Paste a direct image URL or upload via the Media section" }
+              - { label: "Profile Photo", name: "photo", widget: "image" }
+
+          # ─── SERVICES ───────────────────────────────────────
+          - label: "Services Section"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Pill tag text", name: "pill_text", widget: "string" }
+              - { label: "Headline Line 1", name: "headline1", widget: "string" }
+              - { label: "Headline Line 2 (accent)", name: "headline2", widget: "string" }
+              - { label: "Subheadline", name: "subheadline", widget: "text" }
+              - label: "Tools List"
+                name: "tools"
+                widget: "list"
+                field: { label: "Tool Name", name: "tool", widget: "string" }
+              - label: "Service Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          # ─── CONTACT ────────────────────────────────────────
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Pill tag text", name: "pill_text", widget: "string" }
+              - { label: "Headline Line 1", name: "headline1", widget: "string" }
+              - { label: "Headline Line 2 (accent)", name: "headline2", widget: "string" }
+              - { label: "Subheadline", name: "subheadline", widget: "text" }
+              - { label: "Email Address", name: "email", widget: "string" }
+              - { label: "Instagram URL", name: "instagram_url", widget: "string" }
+              - { label: "Twitter / X URL", name: "twitter_url", widget: "string" }
+              - { label: "LinkedIn URL", name: "linkedin_url", widget: "string" }
+              - { label: "Cal.com Embed URL", name: "cal_url", widget: "string" }
+
+          # ─── PORTFOLIO ──────────────────────────────────────
           - label: "Portfolio Projects"
             name: "projects"
             widget: "list"
@@ -32,8 +93,8 @@ collections:
                 name: "category"
                 widget: "select"
                 options: ["Commercial", "Tech", "Sports", "Institutional", "Social", "Brand Film", "Other"]
-              - { label: "Thumbnail Image URL", name: "thumbnail", widget: "string", hint: "Paste a direct image URL (e.g. from your Google Drive or Vimeo thumbnail)" }
-              - { label: "Video URL (YouTube or Vimeo)", name: "video_url", widget: "string", required: false, hint: "e.g. https://vimeo.com/123456789 or https://youtu.be/abc123" }
+              - { label: "Thumbnail Image", name: "thumbnail", widget: "image" }
+              - { label: "Video URL (YouTube)", name: "video_url", widget: "string", required: false, hint: "e.g. https://youtu.be/abc123 or https://www.youtube.com/watch?v=abc123" }
               - { label: "Description", name: "description", widget: "text" }
               - label: "Tags"
                 name: "tags"

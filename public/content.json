@@ -5,7 +5,7 @@
     "bio_paragraph1": "I am Juan Gervasoni, a Senior Video Editor with over 12 years of experience transforming raw footage into high-impact visual stories. My background as a Marketing Specialist at Growth Marketers gives me a unique advantage: I don't just edit for aesthetics—I edit for performance.",
     "bio_paragraph2": "I bridge the gap between creative post-production and marketing ROI. Whether it's a viral TikTok or a high-stakes Meta campaign, every frame is a strategic decision designed to drive conversion and audience retention.",
     "years_experience": 12,
-    "photo_url": "https://picsum.photos/seed/juan-profile-light/800/1000"
+    "photo_url": "https://media.licdn.com/dms/image/v2/D4D03AQF6gxywtR6TPw/profile-displayphoto-shrink_200_200/B4DZXsjDDUHAAY-/0/1743430365932?e=1773273600&v=beta&t=nQf00rrUq5gvQjgtOusjN57O29eC64ZQ_7vDewTIpbA"
   },
   "projects": [
     {
@@ -14,7 +14,11 @@
       "thumbnail": "https://picsum.photos/seed/bettervet/800/450",
       "video_url": "",
       "description": "Post-production and script for BetterVet's brand campaign. Directed by Jimena San Pedro.",
-      "tags": ["Post-Production", "Script", "Brand Film"]
+      "tags": [
+        "Post-Production",
+        "Script",
+        "Brand Film"
+      ]
     },
     {
       "title": "Happi Ai: The Future of AI",
@@ -22,7 +26,11 @@
       "thumbnail": "https://picsum.photos/seed/happiai/800/450",
       "video_url": "",
       "description": "Editing and script for Happi Ai, in collaboration with Raw Access Media.",
-      "tags": ["Editing", "Script", "AI Tech"]
+      "tags": [
+        "Editing",
+        "Script",
+        "AI Tech"
+      ]
     },
     {
       "title": "Meble Furniture: Modern Living",
@@ -30,7 +38,11 @@
       "thumbnail": "https://picsum.photos/seed/meble/800/450",
       "video_url": "",
       "description": "High-end commercial edit for Meble Furniture's latest collection.",
-      "tags": ["Editing", "Commercial", "Lifestyle"]
+      "tags": [
+        "Editing",
+        "Commercial",
+        "Lifestyle"
+      ]
     },
     {
       "title": "Champion Sports: Performance",
@@ -38,15 +50,11 @@
       "thumbnail": "https://picsum.photos/seed/champion/800/450",
       "video_url": "",
       "description": "Dynamic sports editing focusing on movement and performance.",
-      "tags": ["Action", "Sports", "Dynamic"]
-    },
-    {
-      "title": "Government of Santa Fe",
-      "category": "Institutional",
-      "thumbnail": "https://picsum.photos/seed/santafe/800/450",
-      "video_url": "",
-      "description": "Institutional video production for the Government of the Province of Santa Fe.",
-      "tags": ["Production", "Institutional", "Storytelling"]
+      "tags": [
+        "Action",
+        "Sports",
+        "Dynamic"
+      ]
     },
     {
       "title": "Support Pets: Emotional Support",
@@ -54,7 +62,23 @@
       "thumbnail": "https://picsum.photos/seed/supportpets/800/450",
       "video_url": "",
       "description": "Heartfelt commercial edit for Support Pets service.",
-      "tags": ["Editing", "Narrative", "Commercial"]
+      "tags": [
+        "Editing",
+        "Narrative",
+        "Commercial"
+      ]
+    },
+    {
+      "title": "Government of Santa Fe",
+      "category": "Institutional",
+      "thumbnail": "https://picsum.photos/seed/santafe/800/450",
+      "video_url": "",
+      "description": "Institutional video production for the Government of the Province of Santa Fe.",
+      "tags": [
+        "Production",
+        "Institutional",
+        "Storytelling"
+      ]
     }
   ]
 }

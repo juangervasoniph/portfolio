@@ -20,7 +20,7 @@ export default function AboutMe() {
           >
             <div className="relative z-10 rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-xl shadow-black/5 aspect-[4/5] md:aspect-square lg:aspect-[4/5]">
               <img
-                src={about.photo_url}
+                src={about.photo}
                 alt="Juan Gervasoni"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
